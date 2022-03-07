@@ -1,1 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T02:34:48.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="16.6.5" etag="sijFkr4BhSLJy-0U_C7z" type="github"><diagram id="7cyT5EY0we0DKyv222Uc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-07T02:43:15.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="3BisQzOcoid-fpAEungx" version="16.6.5" type="github">
+  <diagram id="7cyT5EY0we0DKyv222Uc" name="Page-1">
+    <mxGraphModel dx="946" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="HRfE7K3ieWXVTMbMeyvn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="256" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-1" value="DASH客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="196" y="168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="HRfE7K3ieWXVTMbMeyvn-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-5" value="HTTP服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="257" y="273" as="sourcePoint" />
+            <mxPoint x="333" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-7" value="请求MPD文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="257" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444" y="271.5" as="sourcePoint" />
+            <mxPoint x="520" y="271.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" target="HRfE7K3ieWXVTMbMeyvn-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="256" y="317" as="sourcePoint" />
+            <mxPoint x="332" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-10" value="发送MPD文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="302" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-11" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HRfE7K3ieWXVTMbMeyvn-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="446" y="317" as="sourcePoint" />
+            <mxPoint x="519" y="316.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="256" y="363" as="sourcePoint" />
+            <mxPoint x="332" y="363" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-19" value="请求视频分段1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="347" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="443" y="361.5" as="sourcePoint" />
+            <mxPoint x="519" y="361.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" target="HRfE7K3ieWXVTMbMeyvn-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="407" as="sourcePoint" />
+            <mxPoint x="331" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-22" value="发送视频分段2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="392" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-23" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HRfE7K3ieWXVTMbMeyvn-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="407" as="sourcePoint" />
+            <mxPoint x="518" y="406.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="257" y="485" as="sourcePoint" />
+            <mxPoint x="333" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-25" value="请求视频分段N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="469" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444" y="483.5" as="sourcePoint" />
+            <mxPoint x="520" y="483.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" target="HRfE7K3ieWXVTMbMeyvn-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="256" y="529" as="sourcePoint" />
+            <mxPoint x="332" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-28" value="发送视频分段N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="514" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRfE7K3ieWXVTMbMeyvn-29" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HRfE7K3ieWXVTMbMeyvn-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="446" y="529" as="sourcePoint" />
+            <mxPoint x="519" y="528.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
